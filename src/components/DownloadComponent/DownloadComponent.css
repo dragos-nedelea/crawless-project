@@ -1,0 +1,89 @@
+.DownloadMain {
+    width: 100%;
+    height: 724px;
+    background: #2D2763;
+}
+
+.VectorMain {
+    position: relative;
+
+}
+
+.DownloadHeader1 {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 42px;
+    line-height: 52px;
+    text-align: center;
+    color: #FAFAFA;
+
+}
+
+.DownloadText1 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #C8C4FF;
+
+
+}
+
+.Vect1 {
+    position: absolute;
+    width: 528.39px;
+    height: 212.05px;
+    left: 0;
+}
+
+.Vect2 {
+    position: absolute;
+    width: 617.57px;
+    height: 338.81px;
+    left: -35.42px;
+    top: 385px;
+
+}
+
+.Vect3 {
+    position: absolute;
+    width: 420.35px;
+    height: 723px;
+    right: 0;
+    top: 0;
+
+}
+
+.ContextDownload {
+    margin: 200px 0;
+}
+
+.DownloadBtn {
+    display: flex;
+    align-items: center;
+    padding: 13px 24px !important;
+    gap: 16px;
+    border: 1px solid #887DFF !important;
+    border-radius: 32px !important;
+    background: none !important;
+
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 14px !important;
+    line-height: 20px !important;
+    color: #887DFF !important;
+
+}
+
+.DownloadBtn2 {
+    /* display: flex; */
+    /* align-items: center; */
+    padding: 13px 64px !important;
+    gap: 8px;
+
+    color: #2F2F3D !important;
+    background: #B9E01E !important;
+    border-radius: #B9E01E 4px !important;
+
+}

@@ -1,0 +1,108 @@
+.featureMain {
+    display: flex;
+    /* justify-content: space-between; */
+    margin: 160px 0 0 0;
+}
+
+.featureIntrig {
+    width: 60%;
+    height: 1150px;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+}
+
+.featureDesc {
+    height: 832px;
+    width: 40%;
+
+}
+
+.DocHeader {
+    width: fit-content;
+
+    font-style: normal;
+    font-weight: 300;
+    font-size: 38px;
+    line-height: 44px;
+    color: #ECECEC;
+}
+
+.DocText {
+    width: 460px;
+    height: 112px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #A3A3B1;
+}
+
+.IntrigText {
+    width: 472px;
+    height: 132px;
+
+    margin-top: 110px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 38px;
+    line-height: 44px;
+    color: #ECECEC;
+}
+
+.featureCard {
+    width: fit-content;
+}
+
+@media screen and (max-width: 991px) {
+.featureMain {
+    flex-direction: column;
+    margin: 0;
+
+}
+
+    .FeatureImg {
+        display: none;
+    }
+
+    .featureIntrig {
+        height: fit-content;
+    }
+
+    .IntrigText {
+        width: 350px;
+        height: 66px;
+
+        margin: 55px 0;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 44px;
+        color: #ECECEC;
+    }
+
+    .DocHeader {
+        width: fit-content;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 30px;
+        line-height: 44px;
+        color: #ECECEC;
+    }
+
+    .DocText {
+        width: 350px;
+        height: 112px;
+
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+        color: #A3A3B1;
+    }
+
+    .featureDesc {
+        margin: 0 0 150px 0;
+    }
+}

@@ -1,0 +1,118 @@
+.EdgeContainer {
+    margin: 128px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.EdgeHeading1 {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 42px;
+    line-height: 52px;
+    text-align: center;
+    color: #ECECEC;
+
+}
+
+.EdgeText1 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #A3A3B1;
+
+}
+
+.EdgeCards {
+    margin: 128px 0;
+}
+
+.EdgeCard {
+    width: 224px;
+    height: 212px;
+    display: flex;
+    flex-direction: column;
+    vertical-align: top;
+    border: 1px solid #2F2F3D;
+    border-radius: 8px;
+
+}
+
+.EdgeIcon {
+    background: linear-gradient(221.48deg, rgba(255, 255, 255, 0.64) -8.29%, rgba(255, 255, 255, 0) 61.89%), #B9E01E;
+    border-radius: 36px;
+    box-shadow: rgba(160, 217, 17, 0.55) 0px 0px 128px;
+}
+
+.CardTitle {
+    margin: 0;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    display: flex;
+    justify-content: center;
+    color: #D3F261;
+
+}
+
+.CardNumber {
+    margin: 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 40px;
+    display: flex;
+    justify-content: center;
+    color: #D3F261;
+
+
+}
+
+.CardSI {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    display: flex;
+    justify-content: center;
+    color: #D3F261;
+}
+
+@media screen and (max-width: 991px) {
+    .EdgeCards {
+        margin: 64px 0;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .EdgeCard {
+        margin: 20px 0;
+    }
+
+    .EdgeIcon {
+        width: 40%;
+    }
+
+    .EdgeHeading1 {
+        font-style: normal;
+        font-weight: 300;
+        font-size: 28px;
+        line-height: 42px;
+        text-align: center;
+        color: #ECECEC;
+    
+    }
+    
+    .EdgeText1 {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 28px;
+        text-align: center;
+        color: #A3A3B1;
+    
+    }
+}
