@@ -10,6 +10,8 @@ import FeaturesCont from './components/FeaturesCont/FeaturesCont';
 import DownloadComponent from './components/DownloadComponent/DownloadComponent';
 import EdgeComponent from './components/EdgeComponent/EdgeComponent';
 import ExampleCarousel2 from './components/ExampleCarousel2/ExampleCarousel';
+import StoreComponent from './components/StoreComponent/StoreComponent';
+import ExampleCarousel3 from './components/ExampleCarousel3/ExampleCarousel3';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import 'bootstrap//dist/css/bootstrap.min.css';
 
@@ -30,6 +32,8 @@ function App() {
           <DownloadComponent />
           <EdgeComponent />
           <ExampleCarousel2 />
+          <StoreComponent />
+          <ExampleCarousel3 />
         </main>
         <footer>
           {/* Your footer content goes here */}

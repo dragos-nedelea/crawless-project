@@ -21,9 +21,9 @@ function DownloadComponent() {
           <h1 className='text-center DownloadHeader1'>available for desktop</h1>
           <p className='text-center DownloadText1'>download, install and create web automation workflows now</p>
           <div className='my-5 d-flex'>
-          <Button className='mx-3 DownloadBtn'><img src={icon1} className='mx-2'></img><span className='mx-2'>MacOs High Sierra +</span></Button>
-          <Button className='mx-3 DownloadBtn'><img src={icon2} className='mx-2'></img><span className='mx-2'>Microsoft Windows 10 64Bit</span></Button>
-          <Button className='mx-3 DownloadBtn'><img src={icon3} className='mx-2'></img><span className='mx-2'>Linux</span></Button>
+          <Button className='DownloadBtn'><img src={icon1} className='mx-2'></img><span className='mx-2 BtnText'>MacOs High Sierra +</span></Button>
+          <Button className='DownloadBtn'><img src={icon2} className='mx-2'></img><span className='mx-2 BtnText'>Microsoft Windows 10 64Bit</span></Button>
+          <Button className='DownloadBtn'><img src={icon3} className='mx-2'></img><span className='mx-2 BtnText'>Linux</span></Button>
           </div>
           <div className='d-flex'>
           <Button className='mx-auto DownloadBtn2'>GET STARTED</Button>
