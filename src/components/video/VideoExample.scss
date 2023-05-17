@@ -1,0 +1,57 @@
+@import "../../sass/variables.scss";
+
+.VideoMain {
+    background: $banner-color;
+    border-radius: 16px;
+    position: relative;
+}
+
+.VideoText {
+    position: absolute;
+    top: 18vw;
+    left: 26vw;
+    width: 25vw;
+    font-weight: 400;
+    font-size: 2em;
+    line-height: 1em;
+    text-align: center;
+    color: $headers-color;
+
+}
+
+.StartBtn {
+    position: absolute;
+    top: 35%;
+    left:46%;
+    text-align: center;
+}
+
+@media screen and (max-width: 62em) {
+    .VideoMain {
+        height: auto;
+        position: relative;
+    }
+
+    .VideoText {
+        position: absolute;
+        top: 7.5em;
+        left:6em;    
+        width: 12.5em;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1em;
+        line-height: 1em;
+        text-align: center;
+        color: $headers-color;
+    
+    
+    }
+    
+    .StartBtn {
+        position: absolute;
+        top: 4em;
+        left: 10.8em;
+        width: 11%;
+        text-align: center;
+    }
+}

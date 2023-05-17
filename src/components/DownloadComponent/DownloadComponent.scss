@@ -1,0 +1,104 @@
+@import "../../sass/variables.scss";
+
+.DownloadMain {
+    height: 40vw;
+    background: $banner-color;
+}
+
+.VectorMain {
+    position: relative;
+}
+
+.DownloadHeader1 {
+    font-weight: 300;
+    font-size: 3em;
+    line-height: 1em;
+    color: $headers-color;
+}
+
+.DownloadText1 {
+    font-size: 1.3em;
+    line-height: 1em;
+    color: #C8C4FF;
+}
+
+.Vect1 {
+    width: 30vw;
+    height: 10vw;
+}
+
+.Vect2 {
+    width: 30vw;
+    height: 10vw;
+}
+
+.Vect3 {
+    height: 40vw;
+}
+
+.vectories {
+    height: 40vw;
+}
+
+.ContextDownload {
+    position: absolute;
+    margin: 9vw 24vw;
+    z-index: 1;
+}
+
+#DownloadBtn {
+    border: 1px solid $link-color;
+    padding: 1em;
+    border-radius: 2em;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1em;
+    line-height: 1em;
+    color: $link-color;
+    margin: 0 1vw;
+}
+
+#DownloadBtn2 {
+    padding: .7em 4em;
+    color: $darkgrey-color;
+    background: $citrus-color;
+    border: $citrus-color 1em;
+}
+
+.BtnContainer {
+    margin: 2vw;
+    display: flex;
+}
+
+
+@media screen and (max-width: 62em) {
+
+    .BtnContainer {
+        display: none;
+    }
+
+    .BtnText {
+        display: none;
+    }
+
+    .DownloadHeader1 {
+        font-size: 1em;
+
+    }
+
+    .DownloadText1 {
+        font-size: .6em;
+    }
+
+    .ContextDownload {
+        margin: 6vw 12vw;
+        z-index: 1;
+    }
+
+    #DownloadBtn2 {
+        padding: .5em .1em;
+        font-size: .7em;
+        width: 40%;
+    }
+
+}

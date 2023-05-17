@@ -1,5 +1,5 @@
 import React from 'react'
-import './VideoExample.css'
+import './VideoExample.scss'
 import vIMG from '../../assets/vIMG.png'
 import StartBtn from '../../assets/Start.png'
 

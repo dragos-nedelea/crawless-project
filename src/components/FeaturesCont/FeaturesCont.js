@@ -1,5 +1,5 @@
 import React from 'react'
-import './FeaturesCont.css'
+import './FeaturesCont.scss'
 import icon1 from '../../assets/iconDoc.png'
 import icon2 from '../../assets/iconCollab.png'
 import icon3 from '../../assets/iconFreeComp.png'

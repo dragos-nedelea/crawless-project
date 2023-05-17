@@ -1,5 +1,5 @@
 import React from 'react'
-import './EdgeComponent.css'
+import './EdgeComponent.scss'
 import icon1 from '../../assets/EdgeIcon.png'
 import icon2 from '../../assets/EdgeActive.png'
 import icon3 from '../../assets/EdgeCPU.png'

@@ -1,0 +1,51 @@
+@import "../../sass/variables.scss";
+
+.IdeMain {
+    margin: 8em 0;
+}
+
+.IdeHeading1 {
+    width: 18em;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 42px;
+    line-height: 1.5em;
+    text-align: center;
+    color: $headers-color;
+
+}
+
+.IdeHeading2 {
+    width: 45em;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 1em;
+    text-align: center;
+    color: $description-color;
+}
+
+.IdeIcon {
+    background: linear-gradient(#43434A 3.37%, #1c1c2300 93.73%), $theme-color;
+    border-radius: 2.4em;
+    box-shadow: $lavender-color 0px 3em 12em;
+}
+
+@media screen and (max-width: 62em) {
+    .IdeHeading1 {
+        width: 15em;
+        font-size: 22px;
+    
+    }
+
+    .IdeHeading2 {
+        width: 30em;
+        font-size: 11px;
+        
+    }
+
+    .IdeIcon {
+        width: 40%;
+        position: relative;
+    }
+}

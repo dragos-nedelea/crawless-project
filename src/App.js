@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css';
+import './App.scss';
 import NavbarExample from './components/navbar/navbar';
 import HeroHome from './components/banner/HeroHome';
 import VideoExample from './components/video/VideoExample';
@@ -13,7 +13,7 @@ import ExampleCarousel2 from './components/ExampleCarousel2/ExampleCarousel';
 import StoreComponent from './components/StoreComponent/StoreComponent';
 import ExampleCarousel3 from './components/ExampleCarousel3/ExampleCarousel3';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import 'bootstrap//dist/css/bootstrap.min.css';
+import './sass/bootstrap.css';
 
 function App() {
   return (
@@ -36,7 +36,6 @@ function App() {
           <ExampleCarousel3 />
         </main>
         <footer>
-          {/* Your footer content goes here */}
         </footer>
       </Router>
     </div>

@@ -1,5 +1,5 @@
 import React from 'react'
-import './StoreComponent.css'
+import './StoreComponent.scss'
 import icon1 from '../../assets/StoreIcon.png'
 
 function StoreComponent() {

@@ -1,4 +1,4 @@
-import './navbar.css';
+import './navbar.scss';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
@@ -9,7 +9,7 @@ import Logo from '../../assets/crawless-logo.png';
 
 function NavbarExample() {
   return (
-    <Navbar bg="dark" variant="dark" expand="lg" id='navbar'>
+    <Navbar expand="lg" id='navbar'>
           <div className='container'>
             <Navbar.Brand href="#home"><img src={Logo}></img></Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -40,7 +40,7 @@ function NavbarExample() {
                 </NavDropdown>
                 <Nav.Link href="#store" className='mx-4 text-white' >Store</Nav.Link>
               </Nav>
-                <Button variant="primary" size="lg" id='navBtn'>
+                <Button size="lg" id='navBtn'>
                   Try for free
                 </Button>{' '}
             </Navbar.Collapse>

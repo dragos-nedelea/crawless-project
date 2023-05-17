@@ -1,0 +1,30 @@
+@import "../../sass/variables.scss";
+
+#navbar {
+  background: $theme-color;
+
+}
+
+
+#navBtn {
+  background-color: $lavender-color;
+  width: 15vw;
+  height: 3vw;
+  color: $text-color;
+  border-radius: 4px;
+  border: none;
+  font-weight: bold;
+  margin: 1rem 0;
+}
+
+#basic-nav-dropdown {
+  color: $text-color;
+}
+
+@media screen and (max-width: 62em) {
+  #navBtn {
+    width: 40vw;
+    height: 13vw;
+
+  }
+}

@@ -1,0 +1,64 @@
+@import "../../sass/variables.scss";
+
+.header1 {
+    width: 15em;
+    margin: auto;
+    margin-top: 4em;
+    margin-bottom: 1.5em;
+
+    font-style: normal;
+    font-weight: 300;
+    font-size: 38px;
+    line-height: 1em;
+    text-align: center;
+    color: $text-color;
+
+}
+
+.CardIMG {
+    width: 16em;
+    display: flex;
+    margin: auto;
+}
+
+.cardTitle {
+    margin: 1.5em 0 0 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 2em;
+    color: $headers-color;
+}
+
+.cardText {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.5em;
+    text-align: center;
+    color: $description-color;
+}
+
+.CardContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 62em) {
+    .header1 {
+        width: 20em;
+        margin-top: 3em;
+        margin-bottom: 1em;
+        font-weight: bold;
+        font-size: 19px;
+
+    }
+
+    .CardIMG {
+        width: 10em;
+    }
+
+    .CardContainer {
+        flex-direction: column;
+    }
+}

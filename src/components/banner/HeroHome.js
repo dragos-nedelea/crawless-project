@@ -1,5 +1,5 @@
 import React from 'react'
-import './HeroHome.css'
+import './HeroHome.scss'
 import banner from '../../assets/banner.png'
 import Button from 'react-bootstrap/Button'
 

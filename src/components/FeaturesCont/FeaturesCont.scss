@@ -1,0 +1,71 @@
+@import "../../sass/variables.scss";
+
+.featureMain {
+    display: flex;
+    margin: 5% 0 0 0;
+}
+
+.featureIntrig {
+    height: 75em;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+}
+
+.DocHeader {
+    width: fit-content;
+
+    font-style: normal;
+    font-weight: 300;
+    font-size: 38px;
+    line-height: 1em;
+    color: $headers-color;
+}
+
+.DocText {
+    width: 85%;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.1em;
+    line-height: 1.7em;
+    color: $description-color;
+}
+
+.IntrigText {
+    width: 65%;
+    margin-top: 110px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 2.2em;
+    line-height: 1.1em;
+    color: $headers-color;
+}
+
+.featureCard {
+    width: fit-content;
+}
+
+@media screen and (max-width: 62em) {
+    .featureMain {
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .FeatureImg {
+        display: none;
+    }
+
+    .featureIntrig {
+        height: fit-content;
+    }
+
+    .IntrigText {
+        width: 100%;
+        font-size: 2em;
+    }
+
+    .DocHeader {
+        width: fit-content;
+        font-style: normal;
+    }
+}

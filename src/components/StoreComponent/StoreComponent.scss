@@ -1,0 +1,40 @@
+@import "../../sass/variables.scss";
+
+.StoreContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 8rem 0;
+}
+
+.StoreHeading1 {
+    font-weight: 300;
+    font-size: 3em;
+    line-height: 1em;
+    text-align: center;
+    color: $headers-color;
+}
+
+.StoreText1 {
+    font-weight: 400;
+    font-size: 1.2em;
+    line-height: 1.2em;
+    text-align: center;
+    color: $description-color;
+
+}
+
+@media screen and (max-width: 62em) {
+
+    .StoreIcon {
+        width: 40%;
+    }
+
+    .StoreHeading1 {
+        font-size: 2em;
+    }
+    
+    .StoreText1 {
+        font-size: .8em;    
+    }
+}

@@ -1,5 +1,5 @@
 import React from 'react'
-import './IdeFeatures.css'
+import './IdeFeatures.scss'
 import icon from '../../assets/ide.png'
 
 function IdeFreatures() {

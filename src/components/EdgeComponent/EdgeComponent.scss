@@ -1,0 +1,103 @@
+@import "../../sass/variables.scss";
+
+.EdgeContainer {
+    margin: 4rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.EdgeHeading1 {
+    font-weight: 300;
+    font-size: 3em;
+    line-height: 1em;
+    text-align: center;
+    color: $headers-color;
+
+}
+
+.EdgeText1 {
+    font-weight: 400;
+    font-size: 1.2em;
+    line-height: 2em;
+    text-align: center;
+    color: $description-color;
+}
+
+.EdgeCards {
+    margin: 6rem 0;
+}
+
+.EdgeCard {
+    width: 15vw;
+    display: flex;
+    flex-direction: column;
+    vertical-align: top;
+    border: 1px solid $darkgrey-color;
+    border-radius: 8px;
+
+}
+
+.EdgeIcon {
+    background: linear-gradient(221.48deg, #ffffffa3, #ffffff00 61.89%), $citrus-color;
+    border-radius: 36px;
+    box-shadow: #a0d9118c 0px 0px 128px;
+}
+
+.CardTitle {
+    margin: 0;
+    font-weight: 700;
+    font-size: .8em;
+    line-height: 1.4em;
+    display: flex;
+    justify-content: center;
+    color: $lime-color;
+}
+
+.CardNumber {
+    margin: 0;
+    font-weight: 400;
+    font-size: 2em;
+    line-height: 1.2em;
+    display: flex;
+    justify-content: center;
+    color: $lime-color;
+}
+
+.CardSI {
+    font-style: normal;
+    font-weight: 700;
+    font-size: .8em;
+    line-height: 1.4em;
+    display: flex;
+    justify-content: center;
+    color: $lime-color;
+}
+
+@media screen and (max-width: 62em) {
+    .EdgeCards {
+        margin: 2rem 0;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .EdgeCard {
+        width: 50vw;
+        height: 50vw;
+        margin: 1rem 0;
+    }
+
+    .EdgeIcon {
+        width: 40%;
+    }
+
+    .EdgeHeading1 {
+        font-size: 2em;
+        line-height: 1.2em;
+    }
+    
+    .EdgeText1 {
+        font-size: 1em;
+        line-height: 1.2em;
+    }
+}
